@@ -1,0 +1,58 @@
+
+
+<section class="user">
+  <div class="user_options-container">
+    <div class="user_options-text">
+      <div class="user_options-unregistered">
+        <h2 class="user_unregistered-title">Hesabınız yok mu?</h2>
+        <p class="user_unregistered-text"></p>
+    <button class="user_unregistered-signup" id="signup-button">Üye ol</button>
+      </div>
+
+      <div class="user_options-registered">
+        <h2 class="user_registered-title">Hesabınız var mı?</h2>
+        <p class="user_registered-text"></p>
+        <button class="user_registered-login" id="login-button">Giriş yap</button>
+      </div>
+    </div>
+    
+    <div class="user_options-forms" id="user_options-forms">
+      <div class="user_forms-login">
+        <h2 class="forms_title">Giriş yap</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="e-posta" placeholder="e-posta" class="forms_field-input" required autofocus />
+            </div>
+            <div class="forms_field">
+              <input type="İ,f" placeholder="Şifre" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <button type="button" class="forms_buttons-forgot">Parolanızı mı unuttunuz?</button>
+            <input type="submit" value="giriş yap" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+      <div class="user_forms-signup">
+        <h2 class="forms_title">Üye ol</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="text" placeholder="Ad Soyad" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="e-posta" placeholder="e-posta" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="Şifre" placeholder="Şifre" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <input type="submit" value="Üye ol" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
